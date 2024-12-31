@@ -22,6 +22,10 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore
+    - name: Download EliteAPI.dll
+      run: wget https://ext.elitemmonetwork.com/downloads/eliteapi/EliteAPI.dll
+    - name: Download EliteMMO.API.dll
+      run: wget https://ext.elitemmonetwork.com/downloads/elitemmo_api/EliteMMO.API.dll
     - name: Build
       run: dotnet build --no-restore
     - name: Test
