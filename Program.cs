@@ -20,17 +20,6 @@ class Program
             }
             // JobType PlayerJob = (JobType)Enum.Parse(typeof(JobType), api.Player.GetPlayerInfo().MainJob.ToString());
             // Console.WriteLine(PlayerJob);
-            // StorageContainer Storage = (StorageContainer)Enum.Parse(typeof(StorageContainer), "Wardrobe4");
-            // Console.WriteLine(Storage.ToString());
-
-            // EliteAPI.InventoryItem inventoryItem = api.Inventory.GetContainerItem(0, 1);
-            // ushort itemID = inventoryItem.Id;
-            // EliteAPI.IItem item = api.Resources.GetItem(itemID);
-
-            // string[] itemName = item.Name;
-            // uint itemCount = inventoryItem.Count;
-            // Console.WriteLine(itemName[0]);
-            // Console.WriteLine(itemCount);
 
         }
         else
